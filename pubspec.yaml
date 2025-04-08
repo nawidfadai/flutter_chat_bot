@@ -1,0 +1,28 @@
+name: midp_chatbot
+description: A new Flutter project for MIDP ChatBot.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+  file_picker: ^10.0.0
+  syncfusion_flutter_pdf: ^22.2.12  # Added instead of pdf_text
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/.env
